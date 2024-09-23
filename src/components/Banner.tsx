@@ -4,7 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import headerImage from "../images/Man developing website on desk.gif";
+import headerImage from "../images/picktime-book-anytime-anywhere.svg";
 
 const Banner = () => {
   return (
@@ -51,7 +51,7 @@ const Banner = () => {
               src={headerImage}
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-              width={350}
+              width={450}
               height={300}
             />
           </div>

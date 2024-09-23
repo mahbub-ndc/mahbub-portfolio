@@ -5,12 +5,14 @@ import aboutImage from "../images/sysadmin_03-removebg-preview.png";
 const About = () => {
   return (
     <div className="card lg:card-side  shadow-xl">
-      <figure className="lg:w-[600px] md:hidden">
+      <figure className="lg:w-[500px] md:hidden">
         <Image width={500} height={300} alt="image" src={aboutImage} />
       </figure>
       <div className="card-body lg:w-[350px] sm:w-[100%]">
-        <h2 className="card-title text-white text-3xl">About Me</h2>
-        <p className="text-white">
+        <h2 className="card-title text-center text-4xl font-bold text-white mb-8 md:mb-12">
+          About Me
+        </h2>
+        <p className="text-white pb-8 font-normal">
           I am a passionate and detail-oriented full-stack developer with
           expertise in both front-end and back-end technologies. My skill set
           spans from creating intuitive, user-friendly interfaces to developing
