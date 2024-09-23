@@ -1,10 +1,16 @@
+import About from "@/components/About";
 import Banner from "@/components/Banner";
+import MyProjects from "@/components/MyProjects";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
     <>
-      <div className="container mt-24 mx-auto px-12 py-4">
-        <Banner />;
+      <div className="container mx-auto px-12 ">
+        <Banner />
+        <About />
+        <Skills />
+        <MyProjects />
       </div>
     </>
   );

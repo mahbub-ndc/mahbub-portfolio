@@ -4,7 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import headerImage from "../images/night-long.jpg";
+import headerImage from "../images/Man developing website on desk.gif";
 
 const Banner = () => {
   return (
@@ -46,12 +46,12 @@ const Banner = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className=" w-[250px] h-[250px] lg:w-[500px] lg:h-[500px] relative">
             <Image
               src={headerImage}
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
+              width={350}
               height={300}
             />
           </div>

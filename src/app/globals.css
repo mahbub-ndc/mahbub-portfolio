@@ -17,3 +17,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+body {
+  overflow-x: hidden;
+}
