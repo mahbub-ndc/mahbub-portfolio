@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
-import CopyrightSecrion from "@/components/copyrightSecrion";
+import CopyrightSecrion from "@/components/CopyrightSecrion";
+
 import EmailSection from "@/components/EmailSection";
 import MyProjects from "@/components/MyProjects";
 import Skills from "@/components/Skills";

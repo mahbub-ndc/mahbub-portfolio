@@ -18,9 +18,10 @@ import expressImage from "../images/express.png";
 const Skills = () => {
   return (
     <div>
-      <h3 className="text-white text-3xl text-center py-10">
+      <div className="divider divider-success text-white text-3xl w-5/12 md:full mx-auto pt-20 pb-10">
+        {" "}
         Technologies I use
-      </h3>
+      </div>
       <div className="flex flex-wrap gap-4 items-center justify-center w-full max-w-[1000px] mx-auto mt-6">
         <button className="bg-white flex items-center gap-2 px-5 py-2 rounded-full justify-center md:w-[calc(25%-16px)] lg:w-[calc(20%-16px)] h-10">
           <Image
